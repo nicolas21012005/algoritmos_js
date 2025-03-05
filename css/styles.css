@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Bebas Neue", serif;
+}
+
+img {
+  width: 70px;
+  height: 70px;
+}
+
+#cont-principal {
+  width: 100%;
+  min-height: 110vh;
+  background: #001c2b;
+  text-align: center;
+  padding: 80px 100px;
+  color: #235977;
+}
+
+h1 {
+  color: rgb(131, 0, 0);
+  font-size: 40px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+p {
+  color: #235977;
+  font-size: 22px;
+  margin-bottom: 40px;
+}
+
+hr {
+  border-color: rgb(131, 0, 0);
+  margin-bottom: 40px;
+}
+
+button {
+  padding: 10px 30px;
+  background-color: rgb(131, 0, 0);
+  margin: 5px;
+  border-radius: 6px;
+  border: 1px solid rgb(131, 0, 0);
+  transition: .5s;
+  font-size: 1.3rem;
+}
+
+button:hover {
+  background: #001c2b;
+  color: #235977;
+  border: none;
+  box-shadow: 0 4px 4px 0;
+}
+
+.name {
+  margin: 40px 0;
+  color: #235977;
+}
+
+img {
+  margin-right: 10px;
+}
